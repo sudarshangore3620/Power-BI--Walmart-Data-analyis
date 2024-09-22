@@ -1,0 +1,1379 @@
+
+Data Analytics Case Studies 
+
+1. Pizza Place Sales
+A year's worth of sales from a fictitious pizza place, including the date and time of each order and the pizzas, served, with additional details on the type, size, quantity, price, and ingredients.
+Recommended Analysis
+How many customers do we have each day? Are there any peak hours?
+How many pizzas are typically in order? Do we have any bestsellers?
+How much money did we make this year? Can we identify any seasonality in the sales?
+Are there any pizzas we should take off the menu, or any promotions we could leverage?
+Dataset Link:
+https://www.kaggle.com/datasets/mysarahmadbhat/pizza-place-sales
+
+
+
+
+
+
+
+
+2. Airbnb Listings & Reviews
+Airbnb data for 250,000+ listings in 10 major cities, including information about hosts, pricing, location, and room type, along with over 5 million historical reviews.
+NOTE: Prices are in local currency
+Recommended Analysis
+Can you spot any major differences in the Airbnb market between cities?
+Which attributes have the biggest influence on price?
+Are you able to identify any trends or seasonality in the review data?
+Which city offers a better value for travel?
+Dataset Link:
+https://www.kaggle.com/datasets/mysarahmadbhat/airbnb-listings-reviews	
+
+
+3. Marketing Campaign Results
+Marketing campaign data of 2,240 customers of Maven Marketing, including customer profiles, product preferences, campaign successes/failures, and channel performance.
+Recommended Analysis
+Are there any null values or outliers? How will you handle them?
+What factors are significantly related to the number of web purchases?
+Which marketing campaign was the most successful?
+What does the average customer look like?
+Which products are performing best?
+Which channels are underperforming?
+Dataset Link:
+https://www.kaggle.com/datasets/deepaksaw/marketing-dataset	
+
+
+
+4. Movie Ratings
+Ratings and reviews for 15,000+ movies reviewed by Rotten Tomatoes. Each record includes film details (title, description, rating, genre, directors, cast, release date, studio, runtime, etc.), as well as featured reviews, "Tomatometer" status, and audience ratings.
+Resources:
+Rating Details - https://atlascinemas.net/ratings.html
+Recommended Analysis
+What does the distribution of films look like by rating? My primary genre? (hint: use the first genre listed)
+What % of films received a Certified Fresh Tomatometer rating? What about Rotten?
+Explore new film releases over time. How has the volume of releases by month trended over time? What year/month were the newest films released?
+Compare average Tomatometer ratings by Studio. Which studios produce the highest-rated films, on average? The lowest?
+Compare the Tomatometer ratings against audience ratings. Which films showed the largest discrepancies between audiences and critics?
+Explore the critic's consensus rating: what language is used most often?
+Dataset Link:
+https://www.kaggle.com/datasets/shivavashishtha/movies-data	
+
+Data Dictionary
+
+1.Movie Title :- Movie’s name , every different movie will have its own unique name.
+
+2.Movie Info :- Tells about what exactly the movie is about in very short , very small summary of the movie.
+
+3.Critics Consensus :- Reviews from famous person or organizations.
+
+4.Rating :- What is the rating of movie. Now our dataset has different types of ratings R , NR , G etc… to understand this copy and paste this link on google where what is the meaning of this different types of rating is given. Link is on next page.
+https://atlascinemas.net/ratings.html#:~:text=Children%20under%206%20years%20of,(UR)%20are%20often%20used
+
+5.Genre :- Movie genre refers to the category or type of a film, based on its themes, subject matter, and style. Genres help audiences understand what to expect from a movie, whether it's action-packed, romantic, suspenseful, comedic, or falls into other classifications.
+
+6.Directors :- Person who has made the film.
+
+7.Writers :- The writer is the person who writes the story and the words that the actors says in the movie.
+
+8.Cast :- The cast refers to the actors and actresses who portray characters in the movie.
+
+9.In Theater Date :- It refers to the day when a movie is officially released and becomes available for viewing in cinemas or theaters.
+
+10.On Streaming Date :- It indicates when a movie becomes available for viewing on a streaming platform or television , allowing viewers to watch it online from the comfort of their homes.
+
+11.Runtime In Minutes :- The runtime in minutes indicates the total duration of a movie, measured in minutes, from the beginning to the end of the film.
+
+12.Studio Name :- The studio name refers to the production company or entity responsible for financing, producing, and distributing a movie or television show.
+
+13.Tomatometer Status :- The Tomatometer status indicates whether a movie has received a positive ("Certified Fresh") or negative ("Rotten") rating from Rotten Tomatoes, a popular review aggregation website.
+
+14.Tomatometer Rating :- The Tomatometer rating is a percentage score assigned by Rotten Tomatoes based on the proportion of positive reviews from critics for a movie.
+
+15.Tomatometer Count :- It represents the total number of critic reviews considered in determining the Tomatometer rating for a movie on Rotten Tomatoes.
+
+16.Audience Rating :- The audience rating is a score given by viewers to a movie , typically reflecting their overall satisfaction with the entertainment experience.
+
+17.Audience Count :- It represents the total number of viewer ratings or reviews submitted for the movie , indicating the level of audience engagement and interest in the content.
+
+CREATOR :- Shubham Parihar
+DATE :- 12th March , 2024 .
+
+
+
+
+
+5. Telecom Customer Churn
+Churn data for a fictional Telecommunications company that provides phone and internet services to 7,043 customers in California, and includes details about customer demographics, location, services, and current status.
+Recommended Analysis
+Improve the Data Quality - Check Duplicates, Outliers, and Missings Values and treat them with the appropriate solutions.
+
+Please Note: The Whole Data is only one-Quarter Q2 -2022
+
+How many customers joined the company? How many customers joined?
+Gender (Percentage and Number)
+Age Group (Percentage and Number)
+Cities
+Internet Service (Percentage and Number)
+Average Revenue
+Average GB Consumed
+Unlimited Data (Percentage and Service)
+Specific Streaming Service (Number)
+All Streaming Services (Number)
+
+
+What is the customer profile for a customer that churned, joined, and stayed? Are they different?
+Gender (Percentage and Number)
+Age Group (Percentage and Number)
+Cities
+Internet Service (Percentage and Number)
+Average Revenue
+Average GB Consumed
+Unlimited Data (Percentage and Service)
+Specific Streaming Service (Number)
+All Streaming Services (Number)
+
+
+What seems to be the key drivers of customer churn?
+Is the company losing high-value customers? If so, how can they retain them?
+Out of the 3 customer statuses, stayed, churned, and joined, which has the highest %?
+What payment method was preferred by churned users?
+What are the top 12 cities that churned?
+What churn offers were preferable by the customers?
+
+Dataset Link:
+https://www.kaggle.com/datasets/johnp47/maven-churn-dataset
+
+
+6. Inc 5000 Companies
+A dataset containing information about each company on the INC 5000 list in 2019. Fields include the company name, industry, founding year, website, and location, as well as 2019 revenue, % growth, number of workers (year-over-year), and the number of years on the list.
+Recommended Analysis
+What's the average revenue among companies on the list? Broken down by industry?
+Which industries are most and least represented in the list?
+Do you notice any interesting geographic trends?
+Divide the whole data of states into zones and then find out the trends 
+Which industries saw the largest average growth rate?
+Which companies had the largest increase in staff/new hires?
+Top 5 and Bottom 5 - Companies 
+Did any companies increase revenue while reducing staff?
+Top 1000 - Winner State 
+The most frequent state appearing in the Top 1000 values of companies 
+Do we have any company which was founded last year and Ranked under Top 100 
+Dataset Link:
+https://www.kaggle.com/datasets/mysarahmadbhat/inc-5000-companies	
+
+
+
+7. Madrid Daily Weather
+Daily weather conditions in Madrid from 1997-2015, including max/min/mean temperature, dew point, humidity, visibility, and wind speed, along with precipitation events, cloud cover, and wind direction.
+Cloud Cover,  Wind Direction Degree 
+Recommended Analysis
+During the period in this sample, what % of days had some sort of precipitation event? What % were clear? 
+Suppose you're planning a vacation to Madrid and hoping for the warmest temperature. Which month might you plan to travel?
+On which date in the sample did Madrid see the fastest wind gust? What was the weather like on that day?
+How does the average visibility (Km) compare for clear days vs. foggy days?
+Dataset Link:
+https://www.kaggle.com/datasets/mysarahmadbhat/madrid-daily-weather	
+
+
+8. Uber Insights from City Supply and Demand Data
+DailyUber provides the 2016 data. By using this data find out the demand and supply Analysis gap of the cab. The main objective of this project is to analyze the data on Uber Request data. Through the analysis of data, we can find some important insights.
+App Openings (Eyeballs) = Customers who launch the app looking for riders. It is a good measure of demand
+Zeroes = Customers who open the app and see no cars in the area. 
+Request = Customers who make requests for a car. 
+
+
+ Using the provided dataset, answer the following questions:
+Which date had the most completed trips during the two weeks?
+To find the date with the most completed trips, you can group the data by date and sum the completed trips column. Then, sort the results in descending order and select the top row.
+
+What was the highest number of completed trips within a 24-hour period?
+To find the highest number of completed trips within a 24-hour period, you can group the data by date and use a window function to sum the completed trips column over a rolling 24-hour period. Then, you can sort the results in descending order and select the top row.
+
+Which hour of the day had the most requests during the two-week period?
+To answer this question, we need to group the data by an hour and sum the "Requests" column for each hour. We can then sort the result by the sum of requests and select the hour with the highest sum.
+
+
+What percentages of all zeroes during the two week period occurred on weekends (Friday at 5 pm to Sunday at 3 am)? 
+Tip: The local time value is the start of the hour (e.g. 15 is the hour from 3:00pm - 4:00pm)
+To answer this question, we need to filter the data to select only the rows that fall within the specified time range, count the total number of zeros, and count the number of zeros that occurred on weekends. We can then calculate the percentage of zeros that occurred on weekends.
+
+What is the weighted average ratio of completed trips per driver during the two week period? 
+Tip: "Weighted average" means your answer should account for the total trip volume in each hour to determine the most accurate number in the whole period.
+To answer this question, we need to calculate the ratio of completed trips to unique drivers for each hour, multiply the ratio by the total number of completed trips for that hour, and then sum the results. We can then divide this sum by the total number of completed trips for the entire period.
+
+
+In drafting a driver schedule in terms of 8 hour shifts, when are the busiest 8 consecutive hours over the two week period in terms of unique requests? A new shift starts every 8 hours. Assume that a driver will work the same shift each day.
+To solve this, we can first calculate the number of unique requests for each hour of the day, and then slide a window of 8 hours across the hours to find the 8 consecutive hours with the highest number of unique requests.
+
+True or False: Driver supply always increases when demand increases during the two week period. 
+Tip: Visualise the data to confirm your answer if needed.
+This statement is false. There are multiple reasons why driver supply might not always increase when demand increases. For example, some drivers might choose not to work during peak demand times, or there might be external factors that affect driver availability (such as traffic, weather conditions, or events in the city). To confirm this, we would need to analyze the data and identify instances where demand increased but driver supply did not.
+
+In which 72 hour period is the ratio of Zeroes to Eyeballs the highest?
+To answer this question, we can group the data by 72-hour periods and calculate the ratio of zeroes to eyeballs for each period. We can then find the period with the highest ratio.
+
+If you could add 5 drivers to any single hour of every day during the two week period, which hour should you add them to? 
+Hint: Consider both rider eyeballs and driver supply when choosing
+To determine which hour to add 5 drivers too, we want to look for an hour where there are a high number of rider eyeballs and a low number of unique drivers. One way to approach this is to calculate the ratio of requests to unique drivers for each hour and then choose the hour with the highest ratio. The idea here is that adding more drivers to an hour with a high ratio will result in more completed trips
+
+True or False: There is exactly two weeks of data in this analysis
+Looking at the data from all two weeks, which time might make the most sense to consider a true "end day" instead of midnight? (i.e when are supply and demand at both their natural minimums) 
+Tip: Visualise the data to confirm your answer if needed.
+One way to approach this question is to calculate the average number of completed trips and unique drivers for each hour of the day over the entire two-week period. We can then look for the hour with the lowest number of completed trips and unique drivers to find the time when supply and demand are at their natural minimums.
+
+
+
+
+Dataset Link:
+https://www.kaggle.com/datasets/nanasahebshinde/uber-case-study	 
+
+
+
+
+9. Parental Leave Policies
+Crowdsourced parental leave data from 1,601 companies across different industries, including paid/unpaid maternity and paternity leave weeks.
+Recommended Analysis
+Which companies offer the most paid parental leave weeks?
+Is maternity leave typically longer than paternity leave?
+What is the distribution of parental leave weeks offered?
+Are there noticeable differences between industries?
+Data Dictionary 
+Field
+Description
+
+
+Company
+Company name
+Industry
+Company Industry & sub-industry (Industry: Sub-industry)
+Paid Maternity Leave
+Paid weeks off from work for mothers after the birth of their child
+Unpaid Maternity Leave
+Unpaid weeks off from work for mothers after the birth of their child
+Paid Paternity Leave
+Paid weeks off from work for fathers after the birth of their child
+Unpaid Paternity Leave
+Unpaid weeks off from work for fathers after the birth of their child
+
+
+NOTE: This is user-reported data. Where users report conflicting information, consensus numbers (if any) or the median are shown. "N/A" means no information has been reported.
+
+
+Dataset Link:
+https://www.kaggle.com/datasets/shilongzhuang/things-we-do-for-family-some-bald-guy	
+
+
+
+
+
+
+
+10. Nifty 50 Stock Prices
+Historical stock market data for current Nifty 50 companies, from 2000-2021. Each record represents a single day of trading and includes the ticker name, volume, and high, low, open, and close prices.
+Recommended Analysis
+Ranking overall, by Industry and by single title (top 5), using mean Volume (and Trades)
+Group by Industry - Calculate the Mean of Volume and Trades - Top 5 Values 
+Group by Ticker - Calculate the Mean of Volume and Trades - Top 5 Values 
+Ranking of Must trading stock Since Inception (using Trades)
+Group by Ticker - Calculate the Mean and Sum of Trades - Top 5 Values 
+Top 5 best stocks using delta price % Since Inceptionhttps://sciencing.com/calculate-delta-percentage-8475192.html	
+GroupBy on the basis of the company name
+Calculate the percentage change using the equation [X(final) - X(initial)] / X(initial) * 100.
+Final - the last occurrence of close
+Initial - the first occurrence of close
+Top 5 worst stocks using delta price % Since Inception
+Standard deviation is a statistical term that measures the amount of variability or dispersion around an average. Standard deviation is also a measure of volatility: using Numpy is easy to calculate it for each stock or sector into Index.
+With SD, we could calculate the coefficient of variation (CV=standard deviation/mean). As a rule of thumb, a CV >= 1 indicates a relatively high variation, while a CV < 1 can be considered low. This means that distributions with a coefficient of variation higher than 1 are considered to be high variance whereas those with a CV lower than 1 are considered to be low variance.
+
+Resources:
+https://www.indmoney.com/articles/stocks/nifty-50-sectors-and-their-weightage	
+Dataset Link:
+https://www.kaggle.com/datasets/rohanrao/nifty50-stock-market-data?select=NIFTY50_all.csv
+
+
+
+
+
+11. Mobile Apps Playstore Data Analysis
+Why this analysis - This Data Analysis is for getting insights about the mobile apps w.r.t its future business approaches and development of mobile apps. This study has been summarised from the historical data available from the Google Play store from June 2012 till February 2019. It also helps to know the trend involved in the categories of mobile app availability, usability, and users' expectations.
+
+What data is available - The above dataset contains information such as names of the mob apps from the Google Play store, categories, Android versions, Rating, Number of reviews, Number of installs, size of the app, when was last updated, and the current version of the mob apps.
+
+Recommended Analysis
+Q1: - Which is the most used Android version?
+Q2: - Which all categories of mob apps are existing from this dataset?
+Q3: - Which is the most installed category of mob app from this dataset?
+Q4: - How many total categories are there?
+Q5: - Which apps have got 5-star ratings
+Q6: - Which are the top 10 mob apps based on ratings?
+
+
+Dataset Link:
+https://www.kaggle.com/datasets/lava18/google-play-store-apps	
+
+
+
+
+
+12. Northwind Traders
+Sales & order data for Northwind Traders, a fictitious gourmet food supplier, including information on customers, products, orders, shippers, and employees.
+Recommended Analysis
+Are there any noticeable sales trends over time?
+Which are the best and worst-selling products?
+Can you identify any key customers?
+Are shipping costs consistent across providers?
+Dataset Link:
+https://www.kaggle.com/datasets/jeetahirwar/northwind-traders	
+Data Dictionary:
+
+Table
+Field
+Description
+orders
+orderID
+Unique identifier for each order
+orders
+customerID
+The customer who placed the order
+orders
+employeeID
+The employee who processed the order
+orders
+orderDate
+The date when the order was placed
+orders
+requiredDate
+The date when the customer requested the order to be delivered
+orders
+shippedDate
+The date when the order was shipped
+orders
+shipperID
+The ID of the shipping company used for the order
+orders
+freight
+The shipping cost for the order (USD)
+order_details
+orderID
+The ID of the order this detail belongs to
+order_details
+productID
+The ID of the product being ordered
+order_details
+unitPrice
+The price per unit of the product at the time the order was placed (USD - discount not included)
+order_details
+quantity
+The number of units being ordered
+order_details
+discount
+The discount percentage applied to the price per unit
+customers
+customerID
+Unique identifier for each customer 
+customers
+companyName
+The name of the customer's company
+customers
+contactName
+The name of the primary contact for the customer
+customers
+contactTitle
+The job title of the primary contact for the customer
+customers
+city
+The city where the customer is located
+customers
+country
+The country where the customer is located
+products
+productID
+Unique identifier for each product
+products
+productName
+The name of the product
+products
+quantityPerUnit
+The quantity of the product per package
+products
+unitPrice
+The current price per unit of the product (USD)
+products
+discontinued
+Indicates with a 1 if the product has been discontinued
+products
+categoryID
+The ID of the category the product belongs to
+categories
+categoryID
+Unique identifier for each product category
+categories
+categoryName
+The name of the category
+categories
+description
+A description of the category and its products
+employees
+employeeID
+Unique identifier for each employee
+employees
+employeeName
+Full name of the employee
+employees
+title
+The employee's job title
+employees
+city
+The city where the employee works
+employees
+country
+The country where the employee works
+employees
+reportsTo
+The ID of the employee's manager
+shippers
+shipperID
+Unique identifier for each shipper
+shippers
+companyName
+The name of the company that provides shipping services
+
+
+
+
+13. Hotel Booking Data Analysis
+This project contains the real-world data record of hotel bookings of a city and a resort hotel containing details like bookings, cancellations, guest details, etc. from 2015 to 2017. The main aim of the project is to understand and visualize datasets from the hotel and customer point of view i.e.
+reasons for booking cancellations across various parameters
+best time to book a hotel
+peak season
+Info - https://www.sciencedirect.com/science/article/pii/S2352340918315191	
+Recommended Analysis
+Q1: What is the relationship between lead time and cancellation?
+Q2: What is the relationship between deposit type and cancellation?
+Q3: What is the relationship between market segment and cancellation?
+Q4: What is the relationship between previous cancellations and cancellations?
+Q5: How much does the price in hotels vary over the year?
+
+Dataset Link:
+https://www.kaggle.com/jessemostipak/hotel-booking-demand
+
+
+14. Crime Against Women 2001-2014 (India)
+This project contains the data record of all types of crime against women in India in the span of years 2001-2014. The main aim of working on this project is to reflect on the situation of women in our society and raise concern about this matter.
+Recommended Analysis
+Create a Dataset containing the 10 highest reported rape cases in India, in the span of years 2001-2014.
+Create a Dataset containing the 10 highest reported deaths caused by Dowry cases in India, in the span of years 2001-2014.
+Create a dataset containing the 10 highest reported Domestic violence cases in India, in the span of years 2001-2014.
+Create a Dataset containing the 10 highest reported Importation cases in India, in the span of years 2001-2014.
+Find out the total number of cases, in the span of 2001-2014 under each category, state-wise.
+Find out the top 5 states, where the maximum number of cases has been reported in TOTAL in the span of 2001-2014, each category-wise.
+For the "Rape" case 
+For Kidnapping and abduction case 
+For cases of deaths due to dowry 
+For Domestic Violence case 
+For the Importation of Girls case
+Which state has featured in both the lists of "Maximum number of rape cases" and "Maximum number of Importation cases".
+Which state has featured in both the lists of "Maximum number of rape cases" and "Maximum number of Deaths due to Dowry cases".
+Dataset Link:
+https://www.kaggle.com/datasets/greeshmagirish/crime-against-women-20012014-india
+
+
+
+15. Cardiac Patients Medical Report Analysis
+Introduction: Heart attacks are a leading cause of premature mortality globally, with India witnessing over 3 million deaths annually due to heart attacks and strokes. Numerous factors can impact heart health and efficiency. By gaining valuable insights and taking necessary precautions, we can effectively manage the challenges and complications associated with cardiac health.
+Project Objective: In this study, we conducted a detailed analysis of medical reports from numerous heart patients. The goal was to perform exploratory analysis, uncover significant findings, and process the dataset for potential use in machine learning models. Ultimately, these models could aid in predicting the likelihood of heart attacks in new patients.
+By conducting this in-depth analysis, we hope to contribute to the advancement of medical knowledge, enhance patient care, and improve outcomes for individuals at risk of cardiac issues.
+Data Dictionary:
+1. age (#)
+2. sex : 1= Male, 0= Female (Binary)
+3. (cp)chest pain type (4 values -Ordinal):Value 1: typical angina ,Value 2: atypical angina, Value 3: non-anginal pain , Value 4: asymptomatic
+4. (trestbps) resting blood pressure (#)
+5. (chol) serum cholesterol in mg/dl (#)
+6. (fbs)fasting blood sugar > 120 mg/dl(Binary)(1 = true; 0 = false)
+7. (restecg) resting electrocardiography results(values 0,1,2)
+8. (thalach) maximum heart rate achieved (#)
+9. (exang) exercise induced angina (binary) (1 = yes; 0 = no)
+10. (oldpeak) = ST depression induced by exercise relative to rest (#)
+11. (slope) of the peak exercise ST segment (Ordinal) (Value 1: up sloping , Value 2: flat , Value 3: down sloping )
+12. (ca) number of major vessels (0–3, Ordinal) colored by fluoroscopy
+13. (thal) maximum heart rate achieved — (Ordinal): 3 = normal; 6 = fixed defect; 7 = reversible defect
+
+Fields Not to be used: ‘trestbps', 'restecg', 'thalach', 'exang', 'oldpeak', 'slope', 'ca'
+
+Recommended Analysis
+What age group is most vulnerable or has a large number of patients with a higher risk of heart attack?
+Bar Chart Age distribution along the dataset
+Are men mostly prone to heart attacks or women?
+What chest pain types pose a severe risk of a heart attack?
+How fasting blood sugar is related to heart attack?
+What type of thalassemia severely leads to heart attack?
+Due to cholesterol, how many patients are at higher risk?
+
+Dataset Link:
+https://www.kaggle.com/datasets/johnsmith88/heart-disease-dataset	
+
+
+16. 2019 Indian General Elections Data Analysis
+This project focuses on conducting Exploratory Data Analysis (EDA) using any analytical tool for the 2019 Indian General Elections dataset. The dataset, available on Kaggle and created by Prakrut Chauhan, serves as the foundation for the analysis.
+The dataset encompasses comprehensive details about candidates who participated in the elections across different constituencies. It encompasses both personal attributes like assets, education, and criminal records, and electoral attributes like the constituency they contested from their affiliated political party, the total count of received votes, and more.
+Throughout the project, we leverage a variety of analytical tools to cleanse the data and create insightful visualizations. The objective is to uncover patterns, trends, and relationships within the dataset to extract meaningful insights about the 2019 Indian General Elections.
+Recommended Analysis
+Exploratory Analysis and Visualization
+Seat Share
+Age
+Seat Category
+Gender
+Educational Qualifications
+Which States/UTs and Constituencies had the highest and the lowest Voter Turnout?
+How many elected MPs have a criminal record and what is their party-wise distribution?
+What is the distribution of assets, liabilities, and net worth of the elected MPs?
+Which 10 constituencies saw the Most One-sided and the Closest victories respectively?
+What is the region-wise distribution of seats across the country?
+India = {'NORTH INDIA': ['Jammu & Kashmir', 'Himachal Pradesh', 'Punjab', 'Haryana', 'Uttarakhand', 'NCT OF Delhi', 'Chandigarh'],
+         'CENTRAL INDIA': ['Uttar Pradesh', 'Madhya Pradesh', 'Chhattisgarh'],
+         'WEST INDIA': ["Gujarat", "Rajasthan", "Maharashtra", "Goa", "Dadra & Nagar Haveli", "Daman & Diu"],
+         'SOUTH INDIA': ['Karnataka', 'Andhra Pradesh', 'Telangana', 'Kerala', 'Tamil Nadu', 'Puducherry', 'Lakshadweep'],
+         'EAST INDIA': ["Bihar", "Jharkhand", "West Bengal", "Odisha", "Andaman & Nicobar Islands"], 
+         'NORTH-EAST INDIA': ['Assam', 'Arunachal Pradesh', 'Manipur', 'Meghalaya', 'Mizoram', 'Nagaland', 'Sikkim', 'Tripura']}
+
+# group the states into 6 regions
+
+
+Dataset Link:
+https://www.kaggle.com/datasets/prakrutchauhan/indian-candidates-for-general-election-2019	
+
+
+17. Customer Personality Analysis
+Customer Personality Analysis is a detailed analysis of a company’s ideal customers. It helps a business to understand its customers better. It makes it easier for them to modify products according to the specific needs, behaviors, and concerns of different types of customers.
+
+Customer personality analysis helps a business modify its product based on its target customers from different types of customer segments. For example, instead of spending money to market a new product to every customer in the company’s database, a company can analyze which customer segment is most likely to buy the product and then market the product only on that particular segment.
+
+Recommended Analysis
+How many customer(s) Income is above 50000?
+How much money was spent overall on wines and give it's percentage of overall spent money?
+In which year is the maximum amount spent by customers?
+Show the maximum revenue of income in which month and give the top 10 customer list of that month.
+How much is the total amount spent overall on wine, fruits, meat, fish, sweets, and gold also given percentage-wise?
+Total amount spent every weekday in 2 years and it's in percentage
+
+
+Dataset Link:
+https://www.kaggle.com/datasets/deepaksaw/marketing-dataset		
+
+
+18. Success Code of Netflix Original Movies
+What is the problem?
+Identifying the characteristics of successful Netflix original movies based on different attributes such as genre, runtime, IMDB score, and language.
+
+Why is it important to be solved?
+Understanding the features of successful movies can help Netflix in planning and producing more popular and well-received content, thereby attracting a larger audience and increasing its market share in the OTT platform industry.
+
+Data Dictionary
+Title: String - The name of the Netflix original movie.
+Genre: String - The category defining the thematic elements of the movie.
+Premiere: Date - The release date of the movie on Netflix.
+Runtime: Integer - The length of the movie in minutes.
+IMDB Score: Float - The rating given to the movie on the IMDB platform.
+Language: String - The language(s) in which the movie is available.
+
+
+Recommended Analysis
+What is the average IMDB score for each genre?
+Hint: Use the AVERAGEIF function to calculate the average IMDB score for each genre.
+
+Which genre has the highest average runtime?
+Hint: Use the AVERAGE function along with the MAX function to find the genre with the highest average runtime.
+
+Are longer movies rated higher on IMDB?
+Hint: Create a scatter plot with runtime on the X-axis and IMDB score on the Y-axis to analyze the relationship.
+
+What is the distribution of movies across different languages?
+Hint: Use the COUNTIF function to count the number of movies available in each language.
+
+What is the trend in the number of releases over the years?
+Hint: Use the YEAR function to extract the year from the premiere date and then create a line chart to visualize the trend.
+
+Which year had the highest average IMDB score?
+Hint: After extracting the year from the premiere date, use the AVERAGEIF function to find the year with the highest average IMDB score.
+
+Are movies in certain languages rated higher on average?
+Hint: Use the AVERAGEIF function to calculate the average IMDB score for each language.
+
+What is the distribution of IMDB scores?
+Hint: Create a histogram to visualize the distribution of IMDB scores.
+
+What is the most common genre on Netflix?
+Hint: Use the COUNTIF function to find the genre with the highest count.
+
+What is the average runtime of movies released in different months?
+Hint: Use the MONTH function to extract the month from the premiere date and then use the AVERAGEIF function to find the average runtime for each month.
+
+Dataset Link:
+https://www.kaggle.com/datasets/luiscorter/netflix-original-films-imdb-scores	
+
+
+
+
+
+
+19. Amazon Product Reviews
+
+What is the problem?
+The online retail market is fiercely competitive. Understanding customer preferences, product performance, and market trends can help a retailer stay ahead. The problem here is to analyze the dataset to extract insights that can help in enhancing product visibility, improving customer satisfaction, and eventually, increasing sales.
+
+Why is it important to be solved?
+Solving this problem will not only help in increasing sales but will also enhance the customer's shopping experience. It can aid in personalized marketing, improving product placements, and optimizing the product portfolio, thereby leading to increased customer loyalty and higher profits.
+
+Dataset Link:
+https://www.kaggle.com/datasets/ahmedsayed564/amazon-sales-dataset	
+
+
+Data Dictionary
+product_id: The unique identifier for each product.
+product_name: The name of the product.
+category: The category under which the product is listed, further divided into sub-categories separated by "|".
+discounted_price: The price of the product after applying the discount.
+actual_price: The original price of the product without any discount.
+discount_percentage: The percentage of discount offered on the product.
+rating: The average rating given to the product by the customers.
+rating_count: The number of ratings the product received.
+about_product: A brief description of the product.
+user_id: The unique identifiers for users who reviewed the product, separated by commas.
+user_name: The names of users who reviewed the product, separated by commas.
+review_id: The unique identifiers for the reviews, separated by commas.
+review_title: The titles of the reviews, separated by commas.
+review_content: The content of the reviews, separated by commas.
+img_link: The link to the image of the product.
+product_link: The link to the product's page on Amazon.
+
+Recommended Analysis using Excel
+
+Discount Analysis
+How does the discount percentage affect the rating of a product?
+Hint: Use a scatter plot to visualize the relationship between discount percentage and product rating.
+
+Category Analysis
+Which category has the highest average rating?
+Hint: Group data by category and calculate the average rating for each group.
+
+Price Analysis
+Is there a correlation between the product's price and its rating?
+Hint: Use the correlation function in Excel to find the relationship between price and rating.
+
+Review Analysis
+What is the most common word in the positive and negative reviews?
+Hint: Use text analysis techniques to find the most common words in reviews.
+Video for the same - https://www.youtube.com/watch?v=608IwEpJbRo	
+
+Rating Analysis
+What is the distribution of ratings across all products?
+Hint: Create a histogram to visualize the distribution of ratings.
+
+Product Analysis
+Which product has the highest number of reviews and what is its rating?
+Hint: Use Pivot tables to find the product with the highest number of reviews and its rating.
+
+User Analysis
+Identify the top 5 users who have given the most reviews.
+Hint: Use the COUNTIF function to find the users who have given the most reviews.
+
+Review Length Analysis
+Is there a correlation between the length of a review and the rating given?
+Hint: Create a new column for review length and use the correlation function to find the relationship with ratings.
+
+Image Analysis
+Does having an image link affect the product rating?
+Hint: Use conditional formatting to find out if products with image links have higher ratings.
+
+Product Description Analysis
+Can the length of the product description be correlated to the product's rating?
+Hint: Create a new column for the length of the product description and analyze its correlation with the product rating.
+
+
+
+Recommended Analysis using Python
+
+Discount Analysis
+How does the discount percentage affect the rating of a product?
+Hint: Utilize pandas to clean and prepare the data, converting the discount percentage and ratings to numerical data types. Use Matplotlib or Seaborn to visualize the relationship through scatter plots.
+
+Category Analysis
+Which category has the highest average rating?
+Hint: Group the data by categories using the groupby function in pandas and then calculate the mean of the ratings for each category.
+
+Price Analysis
+Is there a correlation between the product's price and its rating?
+Hint: Convert the price and rating columns to numerical data types and use the corr() function in pandas to find the correlation coefficient.
+
+Review Analysis
+What is the most common word in the positive and negative reviews?
+Hint: Use natural language processing libraries like NLTK or TextBlob to perform text analysis and find the most frequent words in positive and negative reviews.
+
+Rating Analysis
+What is the distribution of ratings across all products?
+Hint: Use Matplotlib or seaborn to create a histogram of the ratings column to visualize the distribution.
+
+Product Analysis
+Which product has the highest number of reviews and what is its rating?
+Hint: Use the groupby function in pandas to group data by product ID and then use the idxmax function to find the product with the maximum number of reviews.
+
+User Analysis
+Identify the top 5 users who have given the most reviews?
+Hint: Use value_counts function in pandas on the user_id column to find the top 5 users with the most reviews.
+
+
+Review Length Analysis
+Is there a correlation between the length of a review and the rating given?
+Hint: Create a new column representing the length of each review using pandas and then find the correlation between this new column and the rating column using the corr() function.
+
+Image Analysis
+Does having an image link affect the product rating?
+Hint: Create a new column in the pandas dataframe to indicate whether a product has an image link. Then, analyze the average ratings for products with and without image links.
+
+Product Description Analysis
+Can the length of the product description be correlated to the product's rating?
+Hint: Create a new column for the length of the product description using pandas and then find its correlation with the rating column using the corr() function.
+
+
+Recommended Analysis using MySQL
+
+Discount Analysis
+How does the discount percentage affect the rating of a product?
+Hint: Use SQL queries to create a new column for discount percentage as a numerical value. Then, use SQL queries to find the average rating at each discount level.
+
+Category Analysis
+Which category has the highest average rating?
+Hint: Use GROUP BY clause to group the data by category and then use the AVG function to find the average rating for each category.
+
+Price Analysis
+Is there a correlation between the product's price and its rating?
+Hint: Convert price columns to numerical data types and then use SQL queries to calculate the correlation between price and rating using mathematical functions.
+
+Review Analysis
+What is the most common word in the positive and negative reviews?
+Hint: Use string functions in SQL to break down the review content into individual words and then use COUNT and GROUP BY to find the most common words.
+
+
+Rating Analysis
+What is the distribution of ratings across all products?
+Hint: Use GROUP BY on the rating column and then use COUNT to find the distribution of different rating values.
+
+
+Product Analysis
+Which product has the highest number of reviews and what is its rating?
+Hint: Use GROUP BY on the product_id column and then use COUNT to find the product with the highest number of reviews and its average rating.
+
+User Analysis
+Identify the top 5 users who have given the most reviews?
+Hint: Use GROUP BY on the user_id column and then use COUNT to find the top 5 users who have given the most reviews.
+
+Review Length Analysis
+Is there a correlation between the length of a review and the rating given?
+Hint: Create a new column representing the length of each review using SQL string functions. Then, calculate the correlation between this new column and the rating column using mathematical functions.
+
+Image Analysis
+Does having an image link affect the product rating?
+Hint: Use conditional statements in SQL to categorize products into those with and without image links. Then, calculate the average rating for both groups.
+
+Product Description Analysis
+Can the length of the product description be correlated to the product's rating?
+Hint: Use SQL string functions to create a new column representing the length of the product description. Then, calculate the correlation between this new column and the rating column using mathematical functions.
+
+Recommended Analysis using Tableau
+
+Discount Analysis
+How does the discount percentage affect the rating of a product?
+Hint: Create calculated fields to represent discount percentages and ratings as numerical values. Use scatter plots to visualize the correlation between discount percentages and ratings.
+
+Category Analysis
+Which category has the highest average rating?
+Hint: Use Tableau to create a bar chart where you group data by categories and represent the average ratings for each category.
+Price Analysis
+Is there a correlation between the product's price and its rating?
+Hint: Create calculated fields for price and rating as numerical values. Build scatter plots to visualize any correlation between product price and rating.
+
+Review Analysis
+What is the most common word in the positive and negative reviews?
+Hint: Utilize Tableau's text analysis capabilities to create word clouds that visualize the most common words in positive and negative reviews.
+
+Rating Analysis
+What is the distribution of ratings across all products?
+Hint: Create histograms or bar charts in Tableau to visualize the distribution of ratings across all products.
+
+Product Analysis
+Which product has the highest number of reviews and what is its rating?
+Hint: Build a dashboard that showcases the product with the highest number of reviews along with its rating using bar charts or tree maps.
+
+
+User Analysis
+Identify the top 5 users who have given the most reviews.
+Hint: Use Tableau to create a ranked bar chart to identify the top 5 users based on the number of reviews they have given.
+
+Review Length Analysis
+Is there a correlation between the length of a review and the rating given?
+Hint: Create a calculated field to represent the length of reviews. Use scatter plots to analyze the correlation between review length and ratings.
+
+Image Analysis
+Does having an image link affect the product rating?
+Hint: Create a calculated field to categorize products into those with and without image links. Use bar charts to analyze the average ratings for both groups.
+
+Product Description Analysis
+Can the length of the product description be correlated to the product's rating?
+Hint: Create a calculated field to represent the length of product descriptions. Use scatter plots to analyze the correlation between description length and product ratings.
+
+
+ 20. Analyzing E-Commerce Trends (Flipkart)
+What is the problem?
+The aim is to analyze the Flipkart sales dataset to understand customer preferences, product performance, and sales trends. The analysis will focus on identifying the most popular categories, brands, pricing strategies, and customer ratings.
+
+Why is it important to solve it?
+Solving this problem will help Flipkart make data-driven decisions to improve product listings, pricing strategies, and customer satisfaction. The insights gained from this analysis could lead to increased sales, better customer retention, and improved overall business performance.
+
+Dataset Link:
+https://www.kaggle.com/datasets/bhadreshchabhadiya/flipkart-total-sales	
+Data Dictionary
+uniq_id: Unique identifier for each product.
+Type: String
+Description: This can be used to uniquely identify each product in the dataset.
+
+crawl_timestamp: Timestamp when the data was crawled.
+Type: DateTime
+Description: This indicates when the data for each product was collected.
+
+product_url: URL of the product on Flipkart.
+Type: String
+Description: This is the link to the product listing on Flipkart's website.
+
+product_name: Name of the product.
+Type: String
+Description: This column contains the name/title of the listed product.
+
+product_category_tree: Category hierarchy of the product.
+Type: String (TREE-like structure)
+Description: This contains the category and sub-category information of the product.
+
+pid: Product ID.
+Type: String
+Description: This is the unique identifier assigned by Flipkart to each product.
+
+retail_price: Retail price of the product.
+Type: Float
+Description: This is the original price of the product before any discounts.
+
+discounted_price: The discounted price of the product.
+Type: Float
+Description: This is the selling price of the product after applying discounts.
+
+image: Image URLs of the product.
+Type: String (JSON-like structure)
+Description: This contains the URLs of the product images.
+
+is_FK_Advantage_product: Whether the product is a Flipkart Advantage product.
+Type: Boolean
+Description: This indicates whether the product is part of the Flipkart Advantage program.
+
+description: Description of the product.
+Type: String
+Description: This column contains a detailed description of the product.
+
+product_rating: Rating of the product.
+Type: String
+Description: This is the rating given to the product by customers. If not available, it is marked as "No rating available".
+
+overall_rating: Overall rating of the product.
+Type: String
+Description: This is the overall rating of the product. If not available, it is marked as "No rating available".
+
+brand: Brand of the product.
+Type: String
+Description: This column contains the brand name of the product.
+
+
+product_specifications: Specifications of the product.
+Type: String (JSON-like structure)
+Description: This contains detailed specifications of the product.
+
+
+Recommended Analysis
+
+Recommended Analysis using Excel
+
+Category Analysis
+ Which are the top 5 product categories based on the number of listings?
+Excel Hint: Use text functions to extract category information from product_category_tree and then use COUNTIF or Pivot Table to count the number of products in each category.
+
+Brand Popularity
+Which are the top 5 brands with the most product listings?
+Excel Hint: Use COUNTIF or Pivot Table on the brand column.
+
+Pricing Strategy
+What is the average discount offered by Flipkart across all products?
+Excel Hint: Calculate the discount percentage for each product using retail_price and discounted_price, and then find the average.
+
+Product Ratings
+How many products have customer ratings?
+Excel Hint: Use COUNTIF on the product_rating column to count non-empty and non-"No rating available" cells.
+
+Flipkart Advantage Analysis
+What percentage of products are part of the Flipkart Advantage program?
+Excel Hint: Use COUNTIF on is_FK_Advantage_product and calculate the percentage.
+
+Most Expensive Products
+Which are the top 3 most expensive products listed on Flipkart?
+Excel Hint: Use the SORT or RANK function on retail_price.
+
+Brand-wise Ratings
+Which brands have the highest average product rating?
+Excel Hint: Use AVERAGEIF or Pivot Table on the brand and product_rating columns.
+Category-wise Pricing
+
+Which product category has the highest average retail price?
+Excel Hint: Extract category information and use AVERAGEIF or Pivot Table on the retail_price.
+
+Product Descriptions
+Which products have the longest and shortest descriptions?
+Excel Hint: Use the LEN function on the description column and then find the max and min values.
+
+Time Analysis
+In which month was the data mostly crawled?
+Excel Hint: Use text functions to extract month information from crawl_timestamp and then use COUNTIF or Pivot Table.
+
+
+
+
+Recommended Analysis using Python
+
+Category Analysis
+Which are the top 5 product categories based on the number of listings?
+Python Hint: Parse the product_category_tree column to extract the main category for each product. Then, use the value_counts() method to get the counts of each category and display the top 5.
+
+Brand Popularity
+ Which are the top 5 brands with the most product listings?
+Python Hint: Use the value_counts() method on the brand column to count the number of products for each brand. Display the top 5 brands.
+
+Pricing Strategy
+What is the average discount offered by Flipkart across all products?
+Python Hint: Calculate the discount percentage for each product using the retail_price and discounted_price columns. Then, find the average discount percentage using the mean() method.
+
+Product Ratings
+How many products have customer ratings?
+Python Hint: Filter the product_rating column to exclude entries with "No rating available" and then use the count() method.
+
+
+Flipkart Advantage Analysis
+What percentage of products are part of the Flipkart Advantage program?
+Python Hint: Calculate the percentage of True values in the is_FK_Advantage_product column using the mean() method.
+
+Most Expensive Products
+ Which are the top 3 most expensive products listed on Flipkart?
+Python Hint: Use the nlargest() method on the retail_price column to find the top 3 most expensive products.
+
+Brand-wise Ratings
+ Which brands have the highest average product rating?
+Python Hint: Convert the product_rating column to numeric (handling non-numeric entries appropriately). Then, group by the brand column and use the mean() method to find the average rating for each brand.
+
+Category-wise Pricing
+ Which product category has the highest average retail price?
+Python Hint: Extract the main category from the product_category_tree column, group by the extracted category, and calculate the average retail_price for each category.
+
+Product Descriptions
+ Which products have the longest and shortest descriptions?
+Python Hint: Apply the len() function to the description column to calculate the length of each description. Then, use idxmax() and idxmin() to find the indices of the longest and shortest descriptions.
+
+Time Analysis
+In which month was the data mostly crawled?
+Python Hint: Convert the crawl_timestamp column to datetime format using pd.to_datetime(). Extract the month information and use value_counts() to find the month with the most data crawled.
+
+Recommended Analysis using MySQL
+
+Category Analysis
+Which are the top 5 product categories based on the number of listings?
+SQL Hint: Extract the main category from the product_category_tree column using string functions (like SUBSTRING_INDEX in MySQL). Then, perform a GROUP BY on the main category and use COUNT(*) to get the number of listings in each category. Order the results by count in descending order and limit to the top 5.
+
+Brand Popularity
+Which are the top 5 brands with the most product listings?
+SQL Hint: Perform a GROUP BY on the brand column and use COUNT(*) to get the number of products for each brand. Order the results by count in descending order and limit to the top 5.
+
+
+Pricing Strategy
+What is the average discount offered by Flipkart across all products?
+SQL Hint: Calculate the discount percentage for each row using the formula
+
+
+Then, use the AVG function to find the average discount percentage.
+
+Product Ratings
+How many products have customer ratings?
+SQL Hint: Use the COUNT function with a WHERE clause to exclude rows where product_rating is "No rating available".
+
+Flipkart Advantage Analysis
+What percentage of products are part of the Flipkart Advantage program?
+SQL Hint: Use the AVG function with a CASE statement to convert boolean values to 1 and 0, and calculate the percentage of products in the Flipkart Advantage program.
+
+Most Expensive Products
+Which are the top 3 most expensive products listed on Flipkart?
+SQL Hint: Use the ORDER BY clause on the retail_price column in descending order and limit the results to the top 3.
+
+Brand-wise Ratings
+Which brands have the highest average product rating?
+SQL Hint: Convert the product_rating column to numeric (handling non-numeric entries appropriately) using CAST or CONVERT. Then, perform a GROUP BY on the brand column and use the AVG function to find the average rating for each brand.
+
+
+
+
+Category-wise Pricing
+ Which product category has the highest average retail price?
+SQL Hint: Extract the main category from the product_category_tree column using string functions. Then, perform a GROUP BY on the main category and use the AVG function to calculate the average retail_price for each category.
+
+Product Descriptions
+ Which products have the longest and shortest descriptions?
+SQL Hint: Use the LENGTH or CHAR_LENGTH function to find the length of each description in the description column. Then, use the MAX and MIN functions to find the longest and shortest descriptions, respectively.
+
+
+Time Analysis
+ In which month was the data mostly crawled?
+SQL Hint: Extract the month from the crawl_timestamp column using date functions (like MONTH in MySQL). Then, perform a GROUP BY on the extracted month and use COUNT(*) to find the number of rows for each month. Order the results by count in descending order.
+
+
+Recommended Analysis using Tableau
+Category Analysis
+Question: Which are the top 5 product categories based on the number of listings?
+Tableau Hint: Create a calculated field to extract the main category from the product_category_tree column using string functions like SPLIT. Then, drag this new field to Rows and use the COUNTD (count distinct) function on the uniq_id field. Sort the results in descending order and filter to show only the top 5.
+
+Brand Popularity
+Question: Which are the top 5 brands with the most product listings?
+Tableau Hint: Drag the brand field to Rows and use the COUNTD function on the uniq_id field to Rows. Sort the results in descending order and filter to show only the top 5 brands.
+
+Pricing Strategy
+Question: What is the average discount offered by Flipkart across all products?
+Tableau Hint: Create a calculated field to compute the discount percentage for each product using the retail_price and discounted_price columns. Then, use the AVG function on this calculated field to find the average discount percentage.
+
+Product Ratings
+Question: How many products have customer ratings?
+Tableau Hint: Create a filter to exclude products where product_rating is "No rating available". Then, use the COUNTD function on the uniq_id field to count the number of products with ratings.
+
+Flipkart Advantage Analysis
+Question: What percentage of products are part of the Flipkart Advantage program?
+Tableau Hint: Drag the is_FK_Advantage_product field to Columns and the uniq_id field to Rows, using COUNTD. Then, create a quick table calculation to find the percentage of True values.
+
+Most Expensive Products
+Question: Which are the top 3 most expensive products listed on Flipkart?
+Tableau Hint: Drag the product_name field to Rows and the retail_price field to Columns. Sort the results in descending order based on retail price and filter to show only the top 3 products.
+
+Brand-wise Ratings
+Question: Which brands have the highest average product rating?
+Tableau Hint: Convert the product_rating field to a number using a calculated field and handle non-numeric entries appropriately. Then, drag the brand field to Rows and use the AVG function on the calculated numeric rating field.
+
+Category-wise Pricing
+Question: Which product category has the highest average retail price?
+Tableau Hint: Create a calculated field to extract the main category from the product_category_tree column. Then, drag this new category field to Rows and use the AVG function on the retail_price field.
+
+
+Product Descriptions
+Question: Which products have the longest and shortest descriptions?
+Tableau Hint: Create a calculated field using the LEN function to find the length of each description. Then, drag the product_name field to Rows and the calculated length field to Columns. Sort the results to find the products with the longest and shortest descriptions.
+
+Time Analysis
+Question: In which month was the data mostly crawled?
+Tableau Hint: Convert the crawl_timestamp field to a date type and create a calculated field to extract the month. Then, drag this month field to Rows and use COUNTD on the uniq_id field to count the number of products crawled in each month. Sort the results in descending order.
+
+
+21. Retail Dynamics: Unraveling Sales Drivers and Predictive Analytics
+What is the problem?
+Determine the factors influencing weekly sales across different stores and departments, and predict future sales based on features like promotions (markdowns), store attributes, and external factors like unemployment and CPI.
+
+Why is it important to solve it?
+Optimizing sales is crucial for any retail business. By understanding the key drivers of sales, the company can make informed decisions on inventory management, store operations, and marketing promotions. Predicting future sales helps with stock management, staff allocation, and overall store performance.
+
+Dataset Link:
+https://www.kaggle.com/datasets/manjeetsingh/retaildataset	
+
+Here's an initial overview of the datasets:
+Features Dataset:
+Store: The store number.
+Date: The week for which the data is recorded.
+Temperature: average temperature in the region.
+Fuel_Price: Cost of fuel in the region.
+MarkDown1 to MarkDown5: Anonymized data related to promotional markdowns NaN indicates the absence of the markdown.
+CPI: Consumer Price Index.
+Unemployment: Unemployment rate
+IsHoliday: Whether the week is a special holiday week.
+
+Sales Dataset:
+Store: The store number.
+Dept: The department number.
+Date: The week for which the sales data is recorded.
+Weekly_Sales: Sales for the given department in the given store.
+IsHoliday: Whether the week is a special holiday week.
+
+Stores Dataset:
+Store: The store number.
+Type: type of the store.
+Size: size of the store.
+
+
+Recommended Analysis:
+Recommended Analysis using Excel
+Basic Level:
+What is the overall sales trend over time?
+Hint: Create a line chart with dates on the x-axis and total weekly sales on the y-axis.
+
+How do sales vary across different store types?
+Hint: Use a pivot table or grouped bar chart.
+
+Is there a significant difference in sales during holiday weeks compared to non-holiday weeks?
+Hint: Use a pivot table or bar chart to compare sales during holiday and non-holiday weeks.
+
+Which departments have the highest weekly sales?
+Hint: Group by department and sum the sales.
+
+How does the store size correlate with weekly sales?
+Hint: Use a scatter plot with store size and weekly sales.
+
+Do promotional markdowns have a noticeable effect on sales?
+Hint: Compare sales on weeks with and without markdowns using pivot tables or bar charts.
+Markdown is the reduction of a product's selling price. Markdown is applied to a product to reduce its price, while markup is applied to increase the price. Markup and markdown are used by retailers to adjust prices according to market conditions and to maximize profit margins.
+
+How does temperature affect weekly sales?
+Hint: Scatter plot or line chart with temperature vs. sales.
+
+Is there a correlation between fuel prices and weekly sales?
+Hint: Scatter plot the fuel price and weekly sales.
+
+How does the unemployment rate relate to weekly sales?
+Hint: Scatter plot or line chart with unemployment rate vs. sales.
+
+How does the CPI affect sales?
+Hint: Scatter plot or line chart with CPI vs. sales.
+
+
+Advanced Level:
+Can we forecast sales for the next few weeks based on the given data?
+Hint: Use time series forecasting techniques.
+
+What is the impact of each markdown on the weekly sales when all other factors are held constant?
+Hint: Multivariate regression analysis using sales as the dependent variable and markdowns as independent variables
+
+Which external factors (temperature, fuel price, CPI, unemployment) have the highest correlation with weekly sales?
+Hint: correlation matrix or multivariate regression.
+
+Cluster stores based on sales performance and external factors. Are there any patterns?
+Hint: Use clustering techniques like K-means on normalized data.
+
+Are there any seasonal patterns in sales data?
+Hint: Decompose time series data to observe seasonality.
+
+22. BankOpt: Targeted Marketing Analysis
+
+What is the problem?
+How can a bank increase the success rate of its term deposit subscription through targeted marketing strategies based on the profiles of its clients?
+
+Why is it important to solve it?
+Subscriptions to term deposits represent a significant revenue stream for banks. By understanding the profiles of clients who are more likely to subscribe, banks can tailor their marketing strategies, reduce costs, and increase their profitability.
+
+Dataset Link:
+https://archive.ics.uci.edu/dataset/222/bank+marketing	
+
+Data Dictionary
+age: Age of the client.
+job: Type of job the client holds.
+marital: Marital status of the client.
+education: Client's education level.
+default: Indicates if the client has credit in default.
+balance: Average yearly balance of the client, in euros.
+housing: Indicates if the client has a housing loan.
+loan: Indicates if the client has a personal loan.
+contact: Type of communication mode used for contact.
+day: Day of the last contact.
+month: Month of the last contact.
+duration: Duration of the last contact in seconds.
+campaign: Number of contacts performed during this campaign.
+pdays: Days since the client was last contacted from a previous campaign (999 indicates the client was not contacted).
+previous: Number of contacts before this campaign.
+outcome: Outcome of the previous marketing campaign.
+y: Indicates if the client subscribed to a term deposit.
+
+Recommended Analysis
+
+Recommended Analysis using Excel
+Basic Level Questions:
+
+Client Profile Analysis:
+Question 1.  What is the age distribution of clients?
+Hint: Use Excel's histogram feature to visualize the age distribution.
+
+Subscription Patterns:
+Question 2. How does the term deposit subscription rate vary across different job types?
+Hint: Create a pivot table with job types and subscription status. Use a bar chart for visualization.
+
+Loan Impact:
+Question 3. How does having a personal loan or housing loan affect the likelihood of subscribing to a term deposit?
+Hint: Use a pivot table to compare subscription rates between clients with and without loans.
+
+Education Impact:
+Question 4. Is there a trend between education levels and term deposit subscriptions?
+Hint: Use a pivot table to calculate subscription rates for each education level. Visualize using a bar chart.
+
+Previous campaign influence:
+Question 5. Does the outcome of the previous campaign correlate with current subscriptions?
+Hint: Create a pivot table comparing the 'poutcome' column with the 'y' column.
+
+Contact Analysis:
+Question 6. Which method of contact leads to the highest subscription rates?
+Hint: Use a pivot table to compare subscription rates by contact method.
+Optimal Contact Time:
+Question 7: In which month are clients most likely to subscribe?
+Hint: Use a pivot table to see subscription counts by month. Use a bar chart for visualization.
+
+Campaign Contact Efficiency:
+Question 8: Is there an optimal number of contacts for a client to maximize subscription likelihood?
+Hint: Create a pivot table to see subscription rates based on the number of attempts in the campaign.
+
+Impact of Credit Default:
+Question 9: How does having a credit in default affect the likelihood of subscribing?
+Hint: Use a pivot table to compare subscription rates for clients with and without credit defaults.
+
+Duration and Success:
+Question 10: Does the duration of the last contact have an impact on the subscription?
+Hint: Plot a scatter plot with duration on the x-axis and subscriptions on the y-axis.
+
+Advanced Level Questions:
+
+Combining Factors:
+Question: Which combination of job type and education level has the highest subscription rate?
+Hint: Use a multi-level pivot table with job types and education levels against subscriptions.
+
+Previous Contacts Impact:
+Question: Does the success rate increase if a client is contacted more than once in previous campaigns?
+Hint: Use a pivot table to see subscription rates based on the 'previous' column.
+
+Economic Analysis:
+Question: Can economic indicators (like balance) be used to segment clients for targeted marketing?
+Hint: Use Excel's data analysis toolpack for regression analysis between 'balance' and subscriptions.
+
+Duration Analysis:
+Question: Is there a specific duration range of contact that leads to the highest success rates?
+Hint: Bin the 'duration' column into intervals and use a pivot table to see subscription rates in each bin.
+
+Comprehensive Profile:
+Question: Can we create a comprehensive profile of an "ideal" client most likely to subscribe based on the data?
+Hint: Use multiple pivot tables and filters to identify common attributes of clients who subscribe.
+
+
+23. Real Estate Insights: An Analytical Dive into Property Data
+What is the problem?
+Understanding and analyzing various aspects of the real estate market, particularly in the context of flats, includes pricing, location preferences, and property features.
+
+Why is it important to solve it?
+This analysis can provide insights into market trends, consumer preferences, and investment opportunities in the real estate sector. It is also crucial for developing data analysis skills in practical, real-world contexts.
+
+Dataset Link:
+https://www.kaggle.com/datasets/arnabk123/real-estate-data-sourced-from-99acres-com	
+
+The flats.csv dataset contains information about various flats, with 3017 entries and 20 columns. The key columns in this dataset are similar to the houses.csv dataset, including:
+
+property_name: Name or description of the flat.
+society: The housing society or complex name.
+price: The listed price of the flat.
+rate: Rate of the flat (possibly per unit area).
+areaWithType: The area of the flat with type.
+Bedroom, bathroom, balcony: The number of bedrooms, bathrooms, and balconies.
+additionalRoom: Information about additional rooms.
+address: The address of the flat.
+floorNum: The floor number on which the flat is located.
+facing: The direction the flat faces.
+agePossession: Age of the flat or possession details.
+nearbyLocations: Nearby locations or landmarks.
+description: A description of the flat.
+furnishDetails: Details about furnishings.
+features: Features of the flat.
+rating: Ratings given to the flat.
+property_id: A unique identifier for the flat.
+
+
+Now, let's examine the houses.csv dataset.​​
+The houses.csv dataset consists of information about various houses, with 1044 entries and 21 columns. This dataset shares several common columns with the flats.csv dataset, such as property_name, society, price, area, bedRoom, bathroom, balcony, address, facing, agePossession, nearbyLocations, description, furnishDetails, features, rating, and property_id.
+
+
+Questions for the flats.csv Dataset
+Basic Level
+How many flats are listed in each society?
+Hint: Use the COUNTIF function in Excel.
+What is the average price of 2 BHK flats?
+Hint: Use the AVERAGEIF function after converting prices to a numeric format.
+Count the number of flats available in each bedroom category.
+Hint: Use the COUNTIF function.
+
+Intermediate Level
+What is the distribution of flats based on the number of bathrooms?
+Hint: Create a pivot table.
+Determine the average area of flats for each type of facing (e.g., North, South).
+Hint: Convert area to numeric and then use the AVERAGEIF function.
+
+Advanced Level
+Analyze the correlation between the area of flats and their prices.
+Hint: Convert area and price to numeric values and use the CORREL function.
+Create a histogram to visualize the distribution of flat prices.
+Hint: Use the Histogram tool in Excel's Data Analysis Toolbox.
+
+
+Questions for the houses.csv Dataset
+Basic Level
+What is the most common number of floors in the listed houses?
+Hint: Use the MODE function.
+Calculate the average price of houses with more than 3 bedrooms.
+Hint: Use AVERAGEIF after setting criteria for bedroom count and converting price to numeric.
+
+Intermediate Level
+Compare the average areas of furnished vs. unfurnished houses.
+Hint: First categorize houses into furnished and unfurnished based on 'furnishDetails', then calculate the average area for each category using AVERAGEIF.
+
+
+
+
+24. Unemployment Trends Analysis
+Unemployment Trends Analysis
+https://docs.google.com/document/d/10txbPDtcxrczWeAEMEi7luPMpEdGeGlBnAeiyzx4Kvk/edit?usp=sharing
+
+
+
+25. US Honey Production Analysis
+US Honey Production Analysis
+https://docs.google.com/document/d/1JTWwRtLZpI71IGcLTmHaLt3mz6ctnFSE-cg_0nwdM4w/edit?usp=sharing
+
+
+26. Loan Defaulter Analysis
+Loan Defaulter Analysis
+ DACS03 - Loan Defaulter Analysis
+
+
+27. Aviation Data Analysis
+Aviation Data Analysis
+ DACS04 - Aviation Data Analysis
+
+
+28. Energy Efficiency in Urban Housing Developments
+Energy Efficiency Analysis
+ DACS05 - Energy Efficiency Analysis
+
+29. Analyzing Global Dining Trends with Zomato Data
+Analyzing Global Dining Trends with Zomato Data
+ DACS06 - Zomato Case Study
+
+
+30. Telecommunications ChurnQuest
+Telecommunications ChurnQuest
+ DACS07 - Telecommunications ChurnQuest
+
+
+
+31. Hospital Administration Analysis
+Hospital Administration Analysis
+ DACS08 - Hospital Administration Analysis
+
+
+32. Porter: Optimizing Delivery for the Digital Diner
+Porter
+ DACS09 - Porter
+
+
